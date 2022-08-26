@@ -108,8 +108,7 @@ header::before {
 }
 
 body::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 12px;
   background-color: rgba(0, 0, 0, 0.6);
   };
 
@@ -118,7 +117,9 @@ body::-webkit-scrollbar-track  {
   }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(31, 1, 1);    /* color of the scroll thumb */
+  background-color: rgb(31, 1, 1);
+  border-bottom-left-radius: 50px; 
+  border-bottom-right-radius: 50px; 
   }
 
 .header-content {
