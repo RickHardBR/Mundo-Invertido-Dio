@@ -94,7 +94,15 @@ body::-webkit-scrollbar-thumb {
 
 ```
 
+> Também criei um favicon para a página
+
+
 <h1 align="center" id="imagens">Imagens</h1>
+
+<p align="center">
+<img width="300" src="./assets/images/favicon.png">
+</p>
+
 <p align="center">
 <img width="500" id='pagefulllighttheme' src='./assets/images/readme/pagefull.png'>
 </p>
