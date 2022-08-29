@@ -7,7 +7,7 @@
 :root {
   --primary-color: #CF0F0F;
   --primary-color-contrast: #FFFFFF;
-  --fild-background-color: #000000;
+  --field-background-color: #000000;
 }
 
 .light-theme {
@@ -46,11 +46,23 @@
   --footer-background-color: #000000;
 }
 
+.dark-theme button,
+.dark-theme h1,
+.dark-theme h2,
+.dark-theme h3 {
+  letter-spacing: 5px;
+  font-weight: normal;
+}
+
+.dark-theme .invert-element {
+  transform: rotateZ(180deg) scaleX(-1);
+}
 /***  Generic Styles ***/
 
 * {
   margin: 0;
   box-sizing: border-box;
+  transition: 1s ease-out;
 }
 
 h1, h2, h3 {
@@ -72,6 +84,25 @@ label {
   font-family: "Libre Baskerville", serif;
 }
 
+input,
+textarea {
+  border: 2px solid var(--primary-color-contrast);
+  background-color: var(--field-background-color);
+  color: var(--primary-color-contrast);
+  padding: 8px;
+  margin-bottom: 30px;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+  outline: none;
+  border-color: black;
+}
+
 button {
   padding: 16px 32px;
   background-color: transparent;
@@ -86,12 +117,37 @@ button {
 /*** HEADER STYLES ***/
 
 header {
-  background-color: var(--header-background-color);
   min-height: 850px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--header-background-color);
   position: relative;
+}
+
+.header-content {
+  max-width: 700px;
+  padding: 80px 20px;
+  text-align: center;
+  z-index: 2;
+}
+
+.header-content img {
+  width: 80%;
+}
+
+.header-content p {
+  margin: 30px 0 50px;
+}
+
+.header-content button {
+  border: 3px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.header-content button:hover {
+  background-color: var(--primary-color);
+  color: var(--primary-color-contrast);
 }
 
 header::before {
@@ -122,31 +178,6 @@ body::-webkit-scrollbar-thumb {
   border-bottom-right-radius: 50px; 
   }
 
-.header-content {
-  max-width: 700px;
-  padding: 80px 20px;
-  text-align: center;
-  z-index: 2;
-}
-
-.header-content img {
-  width: 80%;
-}
-
-.header-content p {
-  margin: 30px 0 50px;
-}
-
-.header-content button {
-  border: 3px solid var(--primary-color);
-  color: var(--primary-color);
-}
-
-.header-content button:hover {
-  background-color: var(--primary-color);
-  color: var(--primary-color-contrast);
-}
-
 /*** WORLD CHARACTERS STYLES ***/
 
 .world-characters {
@@ -171,7 +202,7 @@ body::-webkit-scrollbar-thumb {
   transform: rotateZ(180deg) scaleX(-1);
   position: relative;
 
-  mask: var(--character-bottom-image-src) bottom / 1contain contain no-repeat;
+  mask: var(--character-bottom-image-src) bottom / contain no-repeat;
   -webkit-mask: var(--character-bottom-image-src) bottom / 100% no-repeat;
 }
 
@@ -182,6 +213,17 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+main::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: var(--page-background) no-repeat,
+    url("../images/backgrounds/florest.png") no-repeat;
+  background-size: cover;
+  z-index: -1;
 }
 
 /*** SECTIONS STYLES ***/
