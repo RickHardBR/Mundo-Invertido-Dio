@@ -5,7 +5,7 @@ Construindo um Landing Page com HTML CSS e JS
 
 Endereço surge: <a href="http://mundo-invertido.surge.sh/" target="_blank">**Mundo Invertido**</a>
 
-Endereço gitPage: <a href="#" target="_blank">**Mundo Invertido**</a>
+Endereço gitPage: <a href="https://rickhardbr.github.io/Mundo-Invertido-Dio/" target="_blank">**Mundo Invertido**</a>
 
   * [Indice](#funciona)
       * <a href="https://github.com/digitalinnovationone/semana-frontend-mundo-invertido" target="new">O Desafio Mundo Invertido.DIO</a>
