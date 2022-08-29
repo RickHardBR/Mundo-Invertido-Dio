@@ -8,7 +8,7 @@ Endereço surge: <a href="http://mundo-invertido.surge.sh/" target="_blank">**Mu
 Endereço gitPage: <a href="#" target="_blank">**Mundo Invertido**</a>
 
   * [Indice](#funciona)
-      * <a href="https://github.com/digitalinnovationone/semana-frontend-mundo-invertido" target="_blank">O Desafio Mundo Invertido.DIO</a>
+      * <a href="https://github.com/digitalinnovationone/semana-frontend-mundo-invertido" target="new">O Desafio Mundo Invertido.DIO</a>
       * [Aulas](#aulas)
       * [tecnologias](#tecnologias)
       * [Assuntos Abordados](#assuntos)
