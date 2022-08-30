@@ -18,4 +18,10 @@ import { subscribeToHellfireClube } from './data/hellfire-clube.js';
         const subscribeId = await subscribeToHellfireClube(subscribe)
 
         window.alert(`Inscrição adicionada com sucesso! seu ID é: ${subscribeId}`)
+        
+        name.value = ''
+        email.value = ''
+        level.value = ''
+        character.value = ''
+
     })

@@ -22,9 +22,11 @@ Endereço gitPage: <a href="https://rickhardbr.github.io/Mundo-Invertido-Dio/" t
 ---
 
 
-- <a href="https://www.youtube.com/watch?v=FZgIQUDn8zo" target="_blank">Live Dia 01</a>
+- <a href="https://www.youtube.com/watch?v=FZgIQUDn8zo" target="_blank">Live Dia 01 - HTML - CSS - JS</a>
   
-- <a href="https://www.youtube.com/watch?v=WHbhgxJLbN4">Live Dia 02</a>
+- <a href="https://www.youtube.com/watch?v=WHbhgxJLbN4">Live Dia 02 - JavaScript</a>
+  
+- <a href="https://www.youtube.com/watch?v=x6oegBgBcG8&t=3517s">Live Dia 03 - Angular x React</a>
   
 ---
 
